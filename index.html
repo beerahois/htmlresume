@@ -1,102 +1,77 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Süleyman Harmandar</title>
 
-    <style>
-      /* Intentionally minimal.
-       No layout tricks.
-       No centering.
-       No colors.
-       No fonts.
-       Just readability. */
-      @media (prefers-color-scheme: dark) {
-        body {
-          background: #000;
-          color: #eaeaea;
-        }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Süleyman Harmandar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-        a {
-          color: #8ab4f8;
-        }
-      }
+<body>
+  <div class="grid-container">
+    <header class="header brutal-border">
+      <h1 class="glitch" data-text="SÜLEYMAN HARMANDAR">SÜLEYMAN HARMANDAR</h1>
+      <p class="subtitle">STUDENT // DEVELOPER // HUMAN</p>
+    </header>
 
-      body {
-        max-width: 720px;
-        margin: 40px;
-        line-height: 1.6;
-      }
+    <main class="main-content brutal-border">
+      <section class="about section-border">
+        <h2>[ ABOUT ]</h2>
+        <p>
+          I LIKE BUILDING SIMPLE THINGS. I PREFER CLARITY OVER AESTHETICS. CONTENT
+          OVER PRESENTATION. I AM A STUDENT OF GEOGRAPHY, SOCIOLOGY, AND
+          ANTHROPOLOGY. I AM A DEVELOPER OF SIMPLE WEB APPS AND MOBILE APPS. I AM A
+          HUMAN WHO ENJOYS LEARNING AND SHARING KNOWLEDGE. GEOGRAPHY, SOCIOLOGY, ANTHROPOLOGY, DEVELOPMENT,
+          LEARNING, SHARING, SIMPLICITY, CLARITY — THESE ARE THE THEMES THAT DEFINE
+          ME AND MY WORK. I'M PLANNING TO USE THIS WEBSITE AS A PLATFORM TO SHARE MY
+          PROJECTS, THOUGHTS, AND RESOURCES RELATED TO THESE FIELDS.
+        </p>
+      </section>
 
-      h1,
-      h2,
-      h3 {
-        font-weight: bold;
-      }
+      <section class="skills section-border">
+        <h2>[ SKILLS ]</h2>
+        <ul class="brutal-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>FLUTTER</li>
+          <li>SQLITE</li>
+          <li>PYTHON</li>
+          <li>ARCGIS</li>
+          <li>QGIS</li>
+          <li>NETCAD</li>
+        </ul>
+      </section>
 
-      ul {
-        padding-left: 20px;
-      }
+      <section class="projects section-border">
+        <h2>[ PROJECTS ]</h2>
+        <ul class="brutal-list">
+          <li><a href="#" class="brutal-link">SAFIYAH <span class="arrow">→</span></a> <span>MOBILE APP FOR
+              MUSLIMS.</span></li>
+          <li><a href="#" class="brutal-link">MENUM.COM <span class="arrow">→</span></a> <span>WEB APP FOR
+              RESTAURANTS.</span></li>
+        </ul>
+      </section>
+    </main>
 
-      a {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
+    <aside class="sidebar brutal-border">
+      <h2>[ CONTACT ]</h2>
+      <div class="contact-info section-border">
+        <p>EMAIL:<br><a href="mailto:suleymanharmandar@icloud.com" class="brutal-link">SULEYMANHARMANDAR@ICLOUD.COM</a>
+        </p>
+        <p>GITHUB:<br><a href="https://github.com/beerahois" class="brutal-link"
+            target="_blank">GITHUB.COM/BEERAHOIS</a></p>
+      </div>
 
-  <body>
-    <h1>Süleyman Harmandar</h1>
-    <p>Student / Developer / Human</p>
+      <div class="disclaimer section-border">
+        <p>NO TRACKING.</p>
+        <p>NO IMPRESSIONS.</p>
+        <p>JUST EXISTENCE.</p>
+        <p id="clock" class="clock">00:00:00</p>
+      </div>
+    </aside>
+  </div>
+  <script src="script.js"></script>
+</body>
 
-    <p>
-      This is my personal website. It is written in plain HTML. There is no
-      JavaScript. There is almost no CSS.
-    </p>
-
-    <h2>About</h2>
-    <p>
-      I like building simple things. I prefer clarity over aesthetics. Content
-      over presentation. I am a student of geography, sociology, and
-      anthropology. I am a developer of simple web apps and mobile apps. I am a
-      human who enjoys learning and sharing knowledge. And this website is a
-      reflection of that. Geography, sociology, anthropology, development,
-      learning, sharing, simplicity, clarity — these are the themes that define
-      me and my work. I'm planning to use this website as a platform to share my
-      projects, thoughts, and resources related to these fields. I hope it can
-      be a space for others who share similar interests to find value and
-      inspiration.
-    </p>
-
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS (bare minimum)</li>
-      <li>Flutter</li>
-      <li>SQLite</li>
-      <li>Python</li>
-      <li>ArcGIS</li>
-      <li>QGIS</li>
-      <li>Netcad</li>
-    </ul>
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="#">Safiyah</a> — A mobile application for muslims.</li>
-      <li><a href="#">Menum.com</a> — A web application for restaurants.</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Email: suleymanharmandar@icloud.com<br />
-      GitHub: <a href="https://github.com/beerahois">github.com/beerahois</a>
-    </p>
-
-    <hr />
-
-    <p>
-      This website does not track you.<br />
-      It does not animate.<br />
-      It does not impress.<br />
-      It just exists.
-    </p>
-  </body>
 </html>
